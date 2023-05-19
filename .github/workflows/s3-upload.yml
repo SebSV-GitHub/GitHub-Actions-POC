@@ -20,5 +20,5 @@ jobs:
           aws-region: us-east-1
           
       - name: Upload to S3
-      - run: aws s3 sync $GITHUB_WORKSPACE s3://cloudfront-deploy-bucket-memojideveloper
+        run: aws s3 sync $GITHUB_WORKSPACE s3://cloudfront-deploy-bucket-memojideveloper
   
