@@ -1,0 +1,43 @@
+.h-100 {
+  min-height: 100vh;
+}
+
+.flex {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-center {
+  justify-content: center;
+  align-self: center;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.img {
+  margin-bottom: 7rem;
+}
+
+.background {
+  background-image: radial-gradient(circle at center center, #b8b8aa, #7f9183),
+    repeating-radial-gradient(
+      circle at center center,
+      #b8b8aa,
+      #b8b8aa,
+      42px,
+      transparent 84px,
+      transparent 42px
+    );
+  background-blend-mode: multiply;
+  background-color: #7f9183;
+}
+
+.card {
+  background: rgba(255, 255, 255, 0.5);
+  -webkit-backdrop-filter: blur(20px);
+  backdrop-filter: blur(20px);
+  border-radius: 30px;
+  padding: 5rem;
+}
