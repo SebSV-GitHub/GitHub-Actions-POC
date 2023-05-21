@@ -1,5 +1,4 @@
-name: Upload to S3
-run-name: S3 Upload
+name: Cloudfront deploy
 
 on:
   push:
@@ -21,4 +20,8 @@ jobs:
           
       - name: Upload to S3
         run: aws s3 sync $GITHUB_WORKSPACE s3://cloudfront-deploy-bucket-memojideveloper
+        
+      - name: Invalidate distribution
+        run: aws cloudfront create-invalidation --distribution-id ${{ variables.DISTRIBUTION_ID }} --paths "/*"
   
+
