@@ -22,6 +22,6 @@ jobs:
         run: aws s3 sync $GITHUB_WORKSPACE s3://cloudfront-deploy-bucket-memojideveloper
         
       - name: Invalidate distribution
-        run: aws cloudfront create-invalidation --distribution-id ${{ env.DISTRIBUTION_ID }} --paths "/*"
+        run: aws cloudfront create-invalidation --distribution-id ${{ vars.DISTRIBUTION_ID }} --paths "/*"
   
 
