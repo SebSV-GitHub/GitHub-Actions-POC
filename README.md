@@ -5,19 +5,18 @@
 Welcome to my GitHub Actions proof of concept! 😄
 
 This project demonstrates a simple implementation of how actions work,
-and how it deploys the portfolio contained in it's source code.
-. I'm excited to share it with you! 💡
+and how it deploys the portfolio contained in it's source code. I'm excited to share it with you! 💡
 
 To get started, simply follow these steps:
 
-0️⃣  Fork the repository (Don't forget to update your secrets and variables)
-1️⃣  Clone the repository to your local machine
-2️⃣  Make some changes
-3️⃣  Push to origin/main
+- 0️⃣  Fork the repository (Don't forget to update your secrets and variables)
+- 1️⃣  Clone the repository to your local machine
+- 2️⃣  Make some changes
+- 3️⃣  Push to origin/main
 
 That's it! 🎉
 
-We hope you find this POC informative and useful. If you have any feedback or 
+I hope you find this POC informative and useful. If you have any feedback or 
 suggestions, please don't hesitate to contact me. I'm always looking for ways 
 to improve. 😊
 
